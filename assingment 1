@@ -1,0 +1,214 @@
+1. <!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1> ABOUT MYSELF</h1>
+    <p>Hi my name is ARULPRATHAKSHINI SHREE pursuing my UG in KPRIET.</p>
+    <img src="image.jpg" alt="Sample Image">
+</body>
+</html>
+
+
+
+2. <!DOCTYPE html>
+<html>
+<head>
+    <title>NAVIGATION LINKS</title>
+</head>
+<body>
+    <h1>Programming Languages</h1>
+    <ul>
+        <li><a href="page1.html">PYTHON</a></li>
+        <li><a href="page2.html">HTML</a></li>
+        <li><a href="page3.html">JAVA</a></li>
+    </ul>
+</body>
+</html>
+        
+
+
+3. <!DOCTYPE html>
+<html >
+<head>
+    <title>Lists</title>
+</head>
+<body>
+    <h1>Lists</h1>
+  <h2>Ordered List:<h3> Used to create a list of items in a specific order(ol).</h3></h2>
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+    </ol>
+  <h2>Unordered List:<h3>Used to create a list of items in no particular order(ul).</h3></h2>
+    <ul>
+        <li>Abi</li>
+        <li>Arul</li>
+        <li>Cyril</li>
+    </ul>
+</body>
+</html>
+
+
+
+4<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+    <h1 style="color:blue;">Table </h1>
+    <table border="4">
+        <tr>
+            <th style="color:MediumSeaGreen;">NAME</th>
+            <th style="color:MediumSeaGreen;">ROLL.NO</th>
+            <th style="color:MediumSeaGreen;">DEPARTMENT</th>
+        </tr>
+        <tr>
+            <td>Arul</td>
+            <td>22cs018</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Abinaya</td>
+            <td>22ad006</td>
+            <td>AD</td>
+        </tr>
+        <tr>
+            <td>Adhya</td>
+            <td>22am007</td>
+            <td>AIML</td>
+        </tr>
+       <tr>
+         <td>Rudhu</td>
+         <td>22ee012</td>
+         <td>EEE</td>
+      </tr>
+       <tr>
+         <td>Ananya</td>
+         <td>22me012</td>
+         <td>ME</td>
+      </tr>
+      
+      
+           
+    </table>
+</body>
+</html>
+
+
+5. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h2 style="color:MediumSeaGreen;">FORM</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <label for="cars">Department:</label>
+     <select id="dep" name="dep">
+     <option>IT</option>
+    <option>CSE</option>
+    <option>AIML</option>
+    <option>AD</option>
+    <option>CSBS</option>
+  </select><br>
+
+        <label for="College email">College mail:</label>
+        <input type="College email" id="College email" name=" College email" required><br>
+
+        <label for="subscribe">Intrested in IV</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+6. 	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media</title>
+</head>
+<body>
+    <h1>Embedded Multimedia</h1>
+    
+    <h2 style="color:MediumSeaGreen;"> CSS Video:</h2>
+    <iframe width="560" height="415" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="5" allowfullscreen></iframe>
+
+    <h2 style="color:MediumSeaGreen;"> Audio:</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>	
+
+
+
+7. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="submit.php" method="post">
+        <div>
+            <label for="name" ><b>Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter the name">
+        </div>
+           <div>
+            <label for="password">Password:</label>
+            <input type="text" id="Password" name="Passord" required placeholder="Password">
+        </div>
+ <label for="date">date:</label>
+      <input type="date" id="birthday" name="birthday"><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+           <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="email">
+        </div>
+        <label>Language:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="c++">C++</label>
+        <input type="radio" id="female" name="gender" value="java">
+        <label for="java">java</label><br>
+        <div>
+           <label for="department">department:</label>
+  <select id="department" name="department">
+    <option value="CSE">CSE</option>
+    <option value="AIML">AIML</option>
+    <option value="fiat">AD</option>
+    <option value="audi">IT</option>
+  </select><br>
+           <div>
+            <label for="Comments">Comments:</label>
+            <textarea id="message" name="message" rows="9" required></textarea>
+        </div>
+            <label for="file">Upload resume here:</label>
+            <input type="file" id="file" name="file">
+              </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div> <div><input type="reset" value="reset">
+        </div>
+            
+    </form>
+</body>
+</html>
